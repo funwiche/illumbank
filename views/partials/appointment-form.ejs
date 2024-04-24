@@ -1,0 +1,174 @@
+<form id="appointment-form" class="wpcf7-form init">
+  <div class="row">
+    <div class="col-xl-6">
+      <div class="form-group">
+        <div class="input-box">
+          <p>
+            <span class="wpcf7-form-control-wrap" data-name="text-147"
+              ><input
+                required
+                size="40"
+                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                id="formName"
+                aria-required="true"
+                aria-invalid="false"
+                placeholder="Full Name"
+                value=""
+                type="text"
+                name="name"
+            /></span>
+          </p>
+          <div class="icon">
+            <p><i class="fas fa-user"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-6">
+      <div class="form-group">
+        <div class="input-box">
+          <p>
+            <span class="wpcf7-form-control-wrap" data-name="email-663"
+              ><input
+                required
+                size="40"
+                class="wpcf7-form-control wpcf7-email wpcf7-validates-as-required wpcf7-text wpcf7-validates-as-email"
+                id="formEmail"
+                aria-required="true"
+                aria-invalid="false"
+                placeholder="Email"
+                value=""
+                type="email"
+                name="email"
+            /></span>
+          </p>
+          <div class="icon">
+            <p>
+              <i class="fas fa-envelope-open"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xl-6">
+      <div class="form-group">
+        <div class="input-box">
+          <p>
+            <span class="wpcf7-form-control-wrap" data-name="text-148"
+              ><input
+                required
+                size="40"
+                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                id="formPhone"
+                aria-required="true"
+                aria-invalid="false"
+                placeholder="Phone"
+                value=""
+                type="text"
+                name="phone"
+            /></span>
+          </p>
+          <div class="icon">
+            <p>
+              <i class="fas fa-phone-alt"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-6">
+      <div class="form-group">
+        <div class="input-box">
+          <p>
+            <span class="wpcf7-form-control-wrap" data-name="text-148"
+              ><input
+                required
+                size="40"
+                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                id="formState"
+                aria-required="true"
+                aria-invalid="false"
+                placeholder="State"
+                value=""
+                type="text"
+                name="state"
+            /></span>
+          </p>
+          <div class="icon">
+            <p>
+              <i class="fas fa-map-marker"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-xl-6">
+      <div class="form-group">
+        <div class="input-box">
+          <p>
+            <span class="wpcf7-form-control-wrap" data-name="text-148"
+              ><input
+                required
+                size="40"
+                class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required"
+                id="formCity"
+                aria-required="true"
+                aria-invalid="false"
+                placeholder="City"
+                value=""
+                type="text"
+                name="city"
+            /></span>
+          </p>
+          <div class="icon">
+            <p>
+              <i class="fas fa-city"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-xl-6">
+      <div class="form-group">
+        <div class="input-box">
+          <p>
+            <span class="wpcf7-form-control-wrap" data-name="date"
+              ><input
+                required
+                size="40"
+                class="wpcf7-form-control wpcf7-text hasDatepicker"
+                id="datepicker"
+                aria-invalid="false"
+                placeholder="Date"
+                value=""
+                type="text"
+                name="date"
+            /></span>
+          </p>
+          <div class="icon">
+            <p><i class="fas fa-calendar"></i></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <%- include("./alerts.ejs") %>
+  <div class="row">
+    <div class="col-xl-12">
+      <div class="flex items-center gap-3">
+        <div class="button-box">
+          <button class="btn-one">
+            <span class="txt">Send Request</span>
+          </button>
+        </div>
+        <div class="w-8 loader hidden">
+          <img src="/loader.gif" />
+        </div>
+      </div>
+    </div>
+  </div>
+</form>
